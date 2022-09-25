@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <test parallel="none" name="checkOutTest(failed)">
+    <classes>
+      <class name="com.TestLayer.CheckoutTest">
+        <methods>
+          <include name="login"/>
+          <include name="tearDown"/>
+          <include name="checkout1"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.TestLayer.CheckoutTest -->
+    </classes>
+  </test> <!-- checkOutTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
